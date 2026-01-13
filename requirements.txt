@@ -1,3 +1,4 @@
+#Requeriments
 discord.py
 python-dotenv
 openai
