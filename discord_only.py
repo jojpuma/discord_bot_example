@@ -1,3 +1,4 @@
+#Import 
 from dotenv import load_dotenv
 import discord
 import os
@@ -15,6 +16,7 @@ client = discord.Client(intents=intents)
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
 
+#Condition to answer
 @client.event
 async def on_message(message):
     if message.author == client.user:
